@@ -6,6 +6,8 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Vic Frei</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Vic Frei - WDD 131 Course Home Page">
     <meta name="author" content="Vic Frei">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 
 </head>
 <body>
@@ -31,16 +33,16 @@
 
     <main>
         <section class="card">
-            <p>About Me</p>
+            <h2>About Me</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, possimus voluptates. Ut deleniti ipsam a voluptatem quaerat, reiciendis expedita possimus veniam nam cumque? A dolorem quaerat fuga cum provident nesciunt.</p>
-            <img src="" alt="Portrait">
+            <img class="profile" src="images/profile.jpg" alt="Portrait">
             <p>San Antonio Texas</p>
-            <img src="" alt="Texas Flag">
+            <img class="flag" src="images/texas-state-flag.png" alt="Texas Flag">
             <p>San Antonio is... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam accusantium atque vitae at debitis, fuga repellendus recusandae aperiam, ab consectetur</p>
         </section>
 
         <section class="card">
-            <p>Web Dev Resources</p>
+            <h3>Web Dev Resources</h3>
             <ul>
                 <li>
                     <a href="https://www.w3schools.com/">W3 Schools</a>
@@ -57,8 +59,8 @@
     </main>
 
     <footer>
-        <p>©️ |<span id="currentyear"></span> | Vic Frei | Texas USA</p>
-
+        <p id="year">©️2024 | Vic Frei | Texas USA</p>
+        <p id="medium"></p>
     </footer>
 </body>
 </html>
